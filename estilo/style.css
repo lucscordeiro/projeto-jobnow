@@ -17,7 +17,7 @@
 }
 
 body,html{
-    background-color: var(--cor0);
+    background-color: white;
 }
 header{
     background-color: var(--cor1);
@@ -32,7 +32,7 @@ header > h1{
 }
 i#burger{
     display: block;
-    background-color: var(--cor3);
+    background-image: linear-gradient(to right, #0C70F2, #00ABFF);
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -49,35 +49,41 @@ menu > ul > li > a{
     /*border-top: 2px solid white;*/
 }
 menu > ul > li a:hover{
-    background-color: var(--cor3);
+    background-color: var(--cor4);
 }
 main{
     padding: 10px;
-    border-radius: 10px;
     margin-top: 10px;
+    margin: auto;
 }
 article{
     width: 100vw;
 }
-article > h2{
+article > div >h2{
     padding-bottom: 20px;
     color: var(--cor5);
-    font-size: 5.5vw;
+    font-size: 5vw;
     text-align: center;
 }
-article > img{
-    width: 100% ;
+article > div > img{
+    width: 90vw;
     border-radius: 10px;
+    margin-left: 2.2vw;
 }
 article > p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
 }
+article > section > h2{
+    text-align: left;
+}
+article > section > p{
+    text-align: left;
+}
 section{
     color: var(--cor5);
     margin-top: 30px;
-    text-align: left;
 }
 input{
     border-radius: 50px;
@@ -85,14 +91,34 @@ input{
     padding: 15px;
     margin-top: 10px;
     font-size: 3vw;
+    text-align: center;
+    background-color: #e4ebef94;
+    text-align: left;
 }
 .botao{
     background-color: var(--cor4);
-    color: var(--cor0);
+    color: white;
+    cursor: pointer;
 }
-div#parceiras{
-    background-color: #1F7CFF;
+.contact{
+    text-align: center;
+}
+.contactImg{
+    width: 60vw;
+    border-radius: 10px;
+}
+.contact > h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.contact > p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer#parceiras{
+    background-image: linear-gradient(to right, #0C70F2, #00ABFF);
     padding: 30px;
     margin-top: 35px;
-    width: 100vw;
 }

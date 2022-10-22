@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-querie.css">
+    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
 </head>
 <body onresize="mudouTamanho()">
     <header>
@@ -18,15 +19,19 @@
                 <li><a href="#">Empresas</a></li>
                 <li><a href="#">sobre nós</a></li>
                 <li><a href="#">Criar conta</a></li>
+                <li><a href="#"> Entrar</a></li>
             </ul>
         </menu>
     </header>
     <main>
         <article>
-            <h2>Encontre o emprego ou estágio certo para você!</h2>
-            <img src="midia/job-interview.jpg" alt="Foto entrevista de emprego">
-            <section>
+            <div class="container">
+                <h2>Encontre o emprego ou estágio certo para você!</h2>
+                <img src="midia/job-interview.jpg" alt="Foto entrevista de emprego">
+            </div>
+            <section class="contact">
                 <h2>Crie sua conta</h2>
+                <img src="midia/contact.jpg" alt="Foto notebook" class="contactImg">
                 <p>Digite aqui seu endereço de e-mail</p>
                 <form action="POST">
                     <input type="text" placeholder="E-mail">
@@ -35,9 +40,9 @@
             </section>
         </article>
     </main>
-    <div id="parceiras">
+    <footer id="parceiras">
 
-    </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

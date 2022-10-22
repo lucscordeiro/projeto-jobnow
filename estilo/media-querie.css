@@ -8,6 +8,7 @@
         text-align: left;
         padding-top: 30px;
         padding-bottom: 0px;
+        padding-left: 20px;
     }
     menu{
         display: block;
@@ -17,5 +18,37 @@
     menu > ul > li{
         display: inline-block;
         border-top: none;
+    }
+    main{
+        margin-left: 30px;
+    }
+    article > div{
+        position: relative;
+    }
+    .container{
+        margin-top: 50px;
+    }
+    .container h2{
+        font-size: 4vw;
+        margin-left: 20px;
+        color: #575455;
+        text-align: left;
+    }
+    .container img{
+        width: 45vw;
+        border-radius: 10px;
+        margin-left: 60px;
+        margin-right: 70px;
+    }
+    input{
+        font-size: 1.2vw
+    }
+    section{
+        background-color: white;
+        
+    }
+    .container{
+        padding: 30px;
+        display: flex;
     }
 }
