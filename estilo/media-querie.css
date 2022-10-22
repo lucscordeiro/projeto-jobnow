@@ -19,9 +19,6 @@
         display: inline-block;
         border-top: none;
     }
-    main{
-        margin-left: 30px;
-    }
     article > div{
         position: relative;
     }
@@ -30,7 +27,8 @@
     }
     .container h2{
         font-size: 4vw;
-        margin-left: 20px;
+        margin-top: 20px    ;
+        margin-left: 70px;
         color: #575455;
         text-align: left;
     }
@@ -50,5 +48,23 @@
     .container{
         padding: 30px;
         display: flex;
+    }
+    .contact{
+        display: flex;
+        text-align: left;
+        line-height: 30px;
+        margin-top: 100px;
+    }
+    .contact div{
+        margin-left: 25px;
+    }
+    .contact > h2{
+        display: none;
+    }
+    .contact > h3{
+        color: #575455;
+    }
+    .contact > img{
+        width: 40vw;
     }
 }
