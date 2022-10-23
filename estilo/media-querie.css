@@ -74,6 +74,11 @@
     br{
         display: block;
     }
+    footer > h1{
+        color: white;
+        font-size: 3vw;
+        margin-left: 50px;
+    }
 
     /*CSS Login*/
     

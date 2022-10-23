@@ -126,6 +126,14 @@ footer#parceiras{
     padding: 30px;
     margin-top: 35px;
 }
+footer > h1{
+    color: white;
+    font-size: 4vw;
+    margin-left: 50px;
+}
+/*footer > h1 > br{
+    display: block;
+}*/
 
 /*CSS Login*/
 
@@ -155,4 +163,9 @@ header#headLogin{
 }
 .separa > p > a{
     color: #00ABFF;
+}
+.separa img{
+    width: 1.7vw;
+    margin-top: 10px;
+    margin-right: 10px;
 }
