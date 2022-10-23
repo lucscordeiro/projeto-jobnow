@@ -27,7 +27,7 @@
     }
     .container h2{
         font-size: 4vw;
-        margin-top: 20px    ;
+        margin-top: 20px;
         margin-left: 70px;
         color: #575455;
         text-align: left;
@@ -66,5 +66,30 @@
     }
     .contact > img{
         width: 40vw;
+        margin-left: 100px;
     }
+    .acessarAgora{
+        margin-top: 20px;
+    }
+    br{
+        display: block;
+    }
+
+    /*CSS Login*/
+    
+    #headLogin > h1{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    #login{
+        margin: auto;
+    }
+    #login > input{
+        margin-left: 50px;
+    }
+    #login > h1{
+        font-size: 3vw;
+        text-align: center;
+    }
+    
 }
