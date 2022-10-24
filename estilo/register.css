@@ -46,6 +46,7 @@ div#confirmaRegistro{
 .dadosRegistro > label{
     margin-bottom: 10px;
     margin-top: 20px;
+    padding-left: 10px;
 }
 .dadosRegistro > br{
     display: block;
