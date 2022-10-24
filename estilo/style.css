@@ -30,6 +30,10 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
+header > h1 > a{
+    text-decoration: none;
+    color: white;
+}
 i#burger{
     display: block;
     background-image: linear-gradient(to right, #0C70F2, #00ABFF);
@@ -165,7 +169,7 @@ header#headLogin{
     color: #00ABFF;
 }
 .separa img{
-    width: 1.7vw;
-    margin-top: 10px;
+    width: 4.5vw;
+    margin-top: 15px;
     margin-right: 10px;
 }

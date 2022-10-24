@@ -5,9 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-querie.css">
+    <link rel="stylesheet" href="estilo/person.css">
+    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-<body>
-    <h1>Perfil</h1>
-    
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Jobnow</h1>
+        <i id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Candidaturas</a></li>
+                <li><a href="#">Vagas</a></li>
+                <li><a href="#">Curriculo</a></li>
+                <li><a href="#">Perfil</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main class="person">
+        <form action="">
+            <input type="text" placeholder="Pesquisar">
+            <a href="#"><img src="midia/lupa.png" alt="Lupa ícones criados por Freepik - Flaticon"></a> 
+        </form>
+        <div>
+            <img src="midia/person.png" alt="Do utilizador ícones criados por Becris - Flaticon">
+            <h2>Nome do candidato</h2>
+            <h3>Status/BIO</h3>
+            <p>Cidade, Estado, País</p>
+        </div>
+        <div>
+            <h2>Sobre mim</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, veniam! Amet, quam minus quasi saepe nulla fugiat provident. Doloribus deleniti, quo temporibus dolorem beatae atque distinctio eaque recusandae incidunt voluptatibus.</p>
+        </div>
+        <div>
+            <h2>Formação acadêmica</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem et maiores dignissimos reiciendis illum dicta, tempora consequatur ea accusantium quia qui beatae, molestiae id enim consectetur totam quos odio?</p>
+        </div>
+        <div>
+            <h2>Certificados</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eos, aliquam sequi nulla cum necessitatibus provident, recusandae est fugiat nam pariatur facilis a quasi totam beatae iste quia ab porro.</p>
+        </div>
+        <div>
+            <h2>Competências</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum recusandae repellat fugiat delectus velit debitis nihil, iure, deserunt alias ea tenetur ad sequi! Dolores necessitatibus ipsum sed, animi nesciunt debitis.</p>
+        </div>
+    </main>
 </body>
 </html>
