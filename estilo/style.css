@@ -142,6 +142,7 @@ caption{
 }
 table{
     margin: auto;
+    margin-left: 50px;
 }
 .tabela{
     display: inline-block;
