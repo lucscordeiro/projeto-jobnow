@@ -5,9 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-querie.css">
+    <link rel="stylesheet" href="estilo/person.css">
+    <link rel="stylesheet" href="estilo/register.css">
+    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/4729d14419.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Cadastro</h1>
-    
+    <header id="register">
+        <h1>Jobnow</h1>
+    </header>
+    <main class="person">
+        <div>
+            <h1>Dados pessoais</h1>
+            <input type="text" name="nomeCandidato" id="nomeCandidato" placeholder="Nome completo">
+                
+            <h1>Contatos</h1>
+            <input type="email" name="emailCandidato" id="emailCandidato" placeholder="Digite seu e-mail">
+            <input type="tel" name="phoneCandidato" id="phoneCandidato" placeholder="Telefone">
+            <input type="tel" name="phoneCandidato" id="phoneCandidato" placeholder="Contato extra">
+
+            <h1>Acesso</h1>
+            <input type="password" name="senhaCandidato" id="senhaCandidato" placeholder="Digite sua senha">
+            <input type="password" name="confirmaSenha" id="confirmaSenha" placeholder="Confirme sua senha">
+        </div>
+        <div id="confirmaRegistro">
+            <a href="person.html">Confirmar</a>
+        </div>
+    </main>
+    <footer id="rodape">
+        <h1>Jobnow</h1>
+    </footer>
 </body>
 </html>

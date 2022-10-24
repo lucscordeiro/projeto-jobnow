@@ -34,13 +34,22 @@ main > form{
     text-align: center;
 }
 main > form > input{
-    width: 500px;
+    width: 45vw;
     background-color: white;
     color: var(--cor5);
     border: none;
 }
 main > form >  a{
     background-color: #00ABFF;
-    padding: 15px;
+    color: white;
+    padding: 15px 25px 15px 25px;
     border-radius: 15px;
+}
+#rodape{
+    background-color: var(--cor1);
+    margin-top: 50px;
+}
+#rodape > h1{
+    text-align: center;
+    padding: 20px;
 }

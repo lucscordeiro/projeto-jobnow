@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="estilo/person.css">
     <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/4729d14419.js" crossorigin="anonymous"></script>
 </head>
 <body onresize="mudouTamanho()">
     <header>
@@ -18,16 +19,16 @@
         <menu id="itens">
             <ul>
                 <li><a href="#">Candidaturas</a></li>
-                <li><a href="#">Vagas</a></li>
+                <li><a href="vagas.html">Vagas</a></li>
                 <li><a href="#">Curriculo</a></li>
-                <li><a href="#">Perfil</a></li>
+                <li><a href="index.html" class="sair">Sair</a></li>
             </ul>
         </menu>
     </header>
     <main class="person">
         <form action="">
-            <input type="text" placeholder="Pesquisar">
-            <a href="#"><img src="midia/lupa.png" alt="Lupa ícones criados por Freepik - Flaticon"></a> 
+            <input type="text" placeholder="Pesquisar vagas">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a> 
         </form>
         <div>
             <img src="midia/person.png" alt="Do utilizador ícones criados por Becris - Flaticon">
@@ -52,5 +53,9 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum recusandae repellat fugiat delectus velit debitis nihil, iure, deserunt alias ea tenetur ad sequi! Dolores necessitatibus ipsum sed, animi nesciunt debitis.</p>
         </div>
     </main>
+    <footer id="rodape">
+        <h1>Jobnow</h1>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
