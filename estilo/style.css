@@ -134,6 +134,20 @@ footer > h1{
     color: white;
     font-size: 4vw;
     margin-left: 50px;
+    text-align: center;
+}
+table{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+td{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3vw;
+}
+.alinhaImg{
+    text-align: center;
+    vertical-align: middle;
 }
 /*
 footer > h1 > br{
