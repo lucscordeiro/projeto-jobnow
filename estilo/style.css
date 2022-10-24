@@ -145,6 +145,7 @@ table{
 }
 .tabela{
     display: inline-block;
+    margin: auto;
 }
 
 td{
