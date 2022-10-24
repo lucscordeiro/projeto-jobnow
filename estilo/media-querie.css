@@ -101,5 +101,24 @@
         margin-top: 15px;
         margin-right: 10px;
     }
-    
+    /*CSS Register*/
+    .dadosRegistro > h1{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .dadosRegistro > h2{
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .dadosRegistro > input{
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .dadosRegistro > label{
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .dadosRegistro > br{
+        display: block;
+    }
 }

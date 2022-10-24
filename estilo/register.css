@@ -31,3 +31,22 @@ div#confirmaRegistro{
     border-radius: 10px;
     padding: 10px;
 }
+.dadosRegistro > h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.dadosRegistro > h2{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.dadosRegistro > input{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.dadosRegistro > label{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.dadosRegistro > br{
+    display: block;
+}

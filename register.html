@@ -15,21 +15,32 @@
 </head>
 <body>
     <header id="register">
-        <h1>Jobnow</h1>
+        <h1><a href="index.html">Jobnow</a></h1>
     </header>
     <main class="person">
-        <div>
-            <h1>Dados pessoais</h1>
-            <input type="text" name="nomeCandidato" id="nomeCandidato" placeholder="Nome completo">
+        <div class="dadosRegistro">
+            <h1>Dados da conta</h1>
+            <h2>Pessoal</h2>
+            <input type="text" name="nomeCandidato" id="nomeCandidato" placeholder="Nome">
+            <input type="text" name="nomeCandidato" id="nomeCandidato" placeholder="Sobrenome">
+            <br>
+            <label for="">Data de nascimento:</label>
+            <input type="date" name="" id="" style="color: #575455; font-family: Verdana, Geneva, Tahoma, sans-serif;">
                 
-            <h1>Contatos</h1>
+            <h2>Contato</h2>
             <input type="email" name="emailCandidato" id="emailCandidato" placeholder="Digite seu e-mail">
+            <input type="email" name="emailCandidato" id="emailCandidato" placeholder="Confirme seu e-mail">
+            <br>
             <input type="tel" name="phoneCandidato" id="phoneCandidato" placeholder="Telefone">
             <input type="tel" name="phoneCandidato" id="phoneCandidato" placeholder="Contato extra">
 
-            <h1>Acesso</h1>
+            <h2>Acesso</h2>
             <input type="password" name="senhaCandidato" id="senhaCandidato" placeholder="Digite sua senha">
             <input type="password" name="confirmaSenha" id="confirmaSenha" placeholder="Confirme sua senha">
+        </div>
+        <div class="dadosRegistro">
+            <h1>Dados CV</h1>
+            
         </div>
         <div id="confirmaRegistro">
             <a href="person.html">Confirmar</a>
