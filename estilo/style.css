@@ -129,6 +129,7 @@ footer#parceiras{
     background-image: linear-gradient(to right, #0C70F2, #00ABFF);
     padding: 15px;
     margin-top: 35px;
+    margin: auto;
 }
 footer > div > h1{
     color: white;
