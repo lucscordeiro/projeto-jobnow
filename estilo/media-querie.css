@@ -74,10 +74,12 @@
     br{
         display: block;
     }
-    footer > div > h1{
+    #titulo{
         color: white;
-        font-size: 3vw;
+        font-size: 1.7vw;
         margin-left: 50px;
+        margin-top: 50px;
+        vertical-align: top;
     }
     table{
         margin-top: 10px;

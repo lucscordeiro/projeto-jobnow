@@ -125,32 +125,27 @@ h3{
 br{
     display: none;
 }
-footer#parceiras{
+div#parceiras{
     background-image: linear-gradient(to right, #0C70F2, #00ABFF);
     padding: 15px;
     margin-top: 35px;
     margin: auto;
 }
-footer > div > h1{
+#titulo{
     color: white;
-    font-size: 4vw;
-    margin-left: 50px;
+    font-size: 3vw;
+    margin-left: 100px;
     margin-right: 50px;
     text-align: center;
-}
-caption{
-    color: white;
-    text-align: center;
+    vertical-align: top;
 }
 table{
-    margin: auto;
     margin-left: 50px;
 }
 .tabela{
     display: inline-block;
     margin: auto;
 }
-
 td{
     background-color: white;
     border-radius: 5px;
