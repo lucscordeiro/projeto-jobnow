@@ -18,5 +18,10 @@
 .vagas > a{
     text-decoration: none;
     color: var(--cor5);
-
+}
+main > div > a > p{
+    margin-top: 10px;
+}
+main > div > a > h2{
+    margin-top: 10px;
 }

@@ -45,6 +45,9 @@ main > form >  a{
     padding: 15px 25px 15px 25px;
     border-radius: 15px;
 }
+main > div > p{
+    margin-top: 10px;
+}
 #rodape{
     background-color: var(--cor1);
     margin-top: 50px;
