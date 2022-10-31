@@ -139,9 +139,9 @@ div#parceiras{
     text-align: center;
     vertical-align: top;
 }
-table{
-   
-}
+/*table{
+    margin-left: 40px;
+}*/
 .tabela{
     display: inline-block;
     margin: auto;

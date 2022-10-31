@@ -48,6 +48,9 @@ main > form >  a{
 main > div > p{
     margin-top: 10px;
 }
+#curriculo > input{
+    width: 50vw;
+}
 #rodape{
     background-color: var(--cor1);
     margin-top: 50px;
