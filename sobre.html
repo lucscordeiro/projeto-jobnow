@@ -1,13 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jobnow</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-querie.css">
+    <link rel="stylesheet" href="estilo/sobre.css">
+    <link rel="stylesheet" href="estilo/media-sobre.css">
+    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
 </head>
-<body>
-    <h1>Sobre nós</h1>
-    
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Jobnow</h1>
+        <i id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html#parceiras">Empresas</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="register.html">Criar conta</a></li>
+                <li><a href="login.html"> Entrar</a></li>
+            </ul>
+        </menu>
+    </header>
+        <section class="normal">
+            <div>
+                <h1>Sobre o Jobnow</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis consequatur ab repellat quod dolore maxime itaque. Aliquam possimus sint aspernatur enim eaque ea aut, earum optio tempora quod ipsum ipsa.</p>
+            </div>
+        </section>
+
+        <section class="imagem" id="img01">
+            <div id="fundo">
+                <h2>Visão</h2>
+                <p>Criar oportunidades de emprego para todos.</p>
+                <h2>Missão</h2>
+                <p>Nossa missão é conectar profissionais de todo o mundo, tornando-os mais produtivos e bem-sucedidos.</p>
+                <h2>Valores</h2>
+                <p>Respeito e valorização às pessoas. Comprometimento com a ética e transparência</p>
+            </div>
+        </section>
+
+        <section class="normal">
+            <div>
+                <h2>Quem somos nós?</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum magnam dignissimos quos totam voluptatem, illum similique architecto sint quas molestiae libero voluptatum quae voluptate est possimus, quaerat, dolore earum.</p>
+            </div>
+        </section>
+        <footer id="rodape">
+            <h1>Jobnow</h1>
+        </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
