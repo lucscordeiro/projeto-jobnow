@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-querie.css">
+    <link rel="stylesheet" href="estilo/person.css">
+    <link rel="stylesheet" href="estilo/vagas.css">
+    <link rel="stylesheet" href="estilo/candidaturas.css">
+    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/4729d14419.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Jobnow</h1>
+        <i id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="candidaturas.html">Candidaturas</a></li>
+                <li><a href="notifications.html">Notificações</a></li>
+                <li><a href="vagas.html">Vagas</a></li>
+                <li><a href="person.html">Perfil</a></li>
+                <li><a href="index.html" class="sair">Sair</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main class="person">
+        <div>
+            <h1 style="text-align: center;">Candidaturas</h1>
+            <p style="text-align: center;">Aqui estão as vagas que você candidatou-se.</p>
+        </div>
+        <div class="vagas">
+                <a href="#"><h1>Empresa - Estagio TI</h1></a>
+                <h2>Status: ativo</h2>
+                <h2>Etapa: Análise de perfil</h2>
+                <a href="#" class="cancelar">Cancelar candidatura</a>
+        </div>
+        <div class="vagas">
+                <a href="#"><h1>Empresa - Dev Júnior</h1></a>
+                <h2>Status: ativo</h2>
+                <h2>Etapa: Teste lógico</h2>
+                <a href="#" class="cancelar">Cancelar candidatura</a>
+        </div>
+        <div class="vagas">
+            <a href="#"><h1>Empresa - Vaga</h1></a>
+                <h2>Status: Ativo</h2>
+                <h2>Etapa: Entrevista</h2>
+                <a href="#" class="cancelar">Cancelar candidatura</a>
+        </div>
+    </main>
+    <footer id="rodape">
+        <h1>Jobnow</h1>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

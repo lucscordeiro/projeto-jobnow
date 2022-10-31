@@ -25,3 +25,9 @@ main > div > a > p{
 main > div > a > h2{
     margin-top: 10px;
 }
+#filtro > ul > li{
+    list-style-type: none;
+}
+a:hover.cancelar{
+    color: red;
+}

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+div > h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
